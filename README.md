@@ -13,7 +13,7 @@ and a README that says what was tested, what held, what failed and how to rerun 
 
 | Target | What was checked | Result | Upstream |
 |---|---|---|---|
-| [Restate](https://github.com/restatedev/restate) (durable execution) | Lean 4 model of the service-protocol message header (`bv_decide`); end-to-end repro against released servers | Invoker panics and the partition processor crash-loops when a deployment sends a custom or unassigned message type (1.7.14, 1.8.1-hotfix.3); fix tested | [restate-research](https://github.com/pedroteixeira/restate-research) · issue _soon_ · PR _soon_ |
+| [Restate](https://github.com/restatedev/restate) (durable execution) | Lean 4 model of the service-protocol message header (`bv_decide`); end-to-end repro against released servers | Invoker panics and the partition processor crash-loops when a deployment sends a custom or unassigned message type (1.7.14, 1.8.1-hotfix.3); fix tested | [restate-research](https://github.com/pedroteixeira/restate-research) · issue [#6061](https://github.com/restatedev/restate/issues/6061) · PR [#6062](https://github.com/restatedev/restate/pull/6062) |
 
 ## AI use
 
